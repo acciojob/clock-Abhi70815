@@ -2,8 +2,9 @@
 let timer=document.getElementById('timer');
 let date= new Date();
 setInterval(
-	funtion(){
+	function(){
 date=new Date();
 	timer.innerHTML=date.toLocaleString();
-},1000)
+},1000
+	)
 // timer.innerHTML=date.toLocaleString();
